@@ -1,0 +1,5 @@
+
+
+aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 509818325882.dkr.ecr.eu-west-1.amazonaws.com
+
+https://towardsdatascience.com/deploy-machine-learning-pipeline-on-aws-fargate-eb6e1c50507

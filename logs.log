@@ -1,0 +1,1702 @@
+2022-01-30 15:38:28,168:INFO:Initializing load_model()
+2022-01-30 15:38:28,168:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 15:38:35,139:INFO:Initializing load_model()
+2022-01-30 15:38:35,139:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 15:52:45,258:INFO:Initializing predict_model()
+2022-01-30 15:52:45,280:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 15:52:45,303:INFO:Checking exceptions
+2022-01-30 15:52:45,303:INFO:Preloading libraries
+2022-01-30 16:10:31,157:INFO:Initializing load_model()
+2022-01-30 16:10:31,182:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 16:10:42,391:INFO:Initializing load_model()
+2022-01-30 16:10:42,392:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:21:46,299:INFO:Initializing load_model()
+2022-01-30 17:21:46,319:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:21:53,756:INFO:Initializing load_model()
+2022-01-30 17:21:53,756:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:22:51,141:INFO:Initializing load_model()
+2022-01-30 17:22:51,141:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:24:04,559:INFO:Initializing load_model()
+2022-01-30 17:24:04,559:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:27:03,875:INFO:Initializing load_model()
+2022-01-30 17:27:03,875:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:27:16,177:INFO:Initializing load_model()
+2022-01-30 17:27:16,177:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:27:56,138:INFO:Initializing load_model()
+2022-01-30 17:27:56,138:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:30:22,627:INFO:Initializing load_model()
+2022-01-30 17:30:22,627:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:30:36,553:INFO:Initializing predict_model()
+2022-01-30 17:30:36,553:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:30:36,554:INFO:Checking exceptions
+2022-01-30 17:30:36,554:INFO:Preloading libraries
+2022-01-30 17:32:56,239:INFO:Initializing load_model()
+2022-01-30 17:32:56,239:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:33:08,034:INFO:Initializing predict_model()
+2022-01-30 17:33:08,034:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:33:08,034:INFO:Checking exceptions
+2022-01-30 17:33:08,034:INFO:Preloading libraries
+2022-01-30 17:33:49,588:INFO:Initializing load_model()
+2022-01-30 17:33:49,588:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:39:19,673:INFO:Initializing load_model()
+2022-01-30 17:39:19,673:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:39:45,916:INFO:Initializing predict_model()
+2022-01-30 17:39:45,916:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:39:45,916:INFO:Checking exceptions
+2022-01-30 17:39:45,916:INFO:Preloading libraries
+2022-01-30 17:43:34,760:INFO:Initializing load_model()
+2022-01-30 17:43:34,760:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:44:57,624:INFO:Initializing predict_model()
+2022-01-30 17:44:57,624:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:44:57,624:INFO:Checking exceptions
+2022-01-30 17:44:57,624:INFO:Preloading libraries
+2022-01-30 17:45:52,725:INFO:Initializing predict_model()
+2022-01-30 17:45:52,725:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:45:52,725:INFO:Checking exceptions
+2022-01-30 17:45:52,725:INFO:Preloading libraries
+2022-01-30 17:45:56,701:INFO:Initializing predict_model()
+2022-01-30 17:45:56,701:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:45:56,701:INFO:Checking exceptions
+2022-01-30 17:45:56,701:INFO:Preloading libraries
+2022-01-30 17:46:30,093:INFO:Initializing predict_model()
+2022-01-30 17:46:30,093:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:46:30,093:INFO:Checking exceptions
+2022-01-30 17:46:30,093:INFO:Preloading libraries
+2022-01-30 17:47:27,424:INFO:Initializing predict_model()
+2022-01-30 17:47:27,424:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:47:27,424:INFO:Checking exceptions
+2022-01-30 17:47:27,424:INFO:Preloading libraries
+2022-01-30 17:47:41,850:INFO:Initializing predict_model()
+2022-01-30 17:47:41,851:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:47:41,851:INFO:Checking exceptions
+2022-01-30 17:47:41,851:INFO:Preloading libraries
+2022-01-30 17:48:21,103:INFO:Initializing predict_model()
+2022-01-30 17:48:21,103:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:48:21,104:INFO:Checking exceptions
+2022-01-30 17:48:21,104:INFO:Preloading libraries
+2022-01-30 17:49:26,415:INFO:Initializing predict_model()
+2022-01-30 17:49:26,416:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:49:26,416:INFO:Checking exceptions
+2022-01-30 17:49:26,416:INFO:Preloading libraries
+2022-01-30 17:51:02,982:INFO:Initializing predict_model()
+2022-01-30 17:51:02,982:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:51:02,982:INFO:Checking exceptions
+2022-01-30 17:51:02,982:INFO:Preloading libraries
+2022-01-30 17:51:23,791:INFO:Initializing predict_model()
+2022-01-30 17:51:23,791:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:51:23,791:INFO:Checking exceptions
+2022-01-30 17:51:23,791:INFO:Preloading libraries
+2022-01-30 17:53:29,689:INFO:Initializing load_model()
+2022-01-30 17:53:29,690:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:53:35,734:INFO:Initializing predict_model()
+2022-01-30 17:53:35,734:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:53:35,734:INFO:Checking exceptions
+2022-01-30 17:53:35,734:INFO:Preloading libraries
+2022-01-30 17:53:46,688:INFO:Initializing load_model()
+2022-01-30 17:53:46,688:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:55:00,874:INFO:Initializing load_model()
+2022-01-30 17:55:00,874:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:55:07,277:INFO:Initializing predict_model()
+2022-01-30 17:55:07,278:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:55:07,278:INFO:Checking exceptions
+2022-01-30 17:55:07,278:INFO:Preloading libraries
+2022-01-30 17:56:44,581:INFO:Initializing load_model()
+2022-01-30 17:56:44,581:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:56:52,560:INFO:Initializing predict_model()
+2022-01-30 17:56:52,560:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:56:52,560:INFO:Checking exceptions
+2022-01-30 17:56:52,561:INFO:Preloading libraries
+2022-01-30 17:57:38,188:INFO:Initializing load_model()
+2022-01-30 17:57:38,188:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 17:57:39,849:INFO:Initializing predict_model()
+2022-01-30 17:57:39,850:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:57:39,850:INFO:Checking exceptions
+2022-01-30 17:57:39,850:INFO:Preloading libraries
+2022-01-30 17:58:11,525:INFO:Initializing predict_model()
+2022-01-30 17:58:11,525:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:58:11,525:INFO:Checking exceptions
+2022-01-30 17:58:11,526:INFO:Preloading libraries
+2022-01-30 17:58:22,679:INFO:Initializing predict_model()
+2022-01-30 17:58:22,680:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 17:58:22,680:INFO:Checking exceptions
+2022-01-30 17:58:22,680:INFO:Preloading libraries
+2022-01-30 18:00:15,813:INFO:Initializing predict_model()
+2022-01-30 18:00:15,814:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:00:15,814:INFO:Checking exceptions
+2022-01-30 18:00:15,814:INFO:Preloading libraries
+2022-01-30 18:00:51,030:INFO:Initializing predict_model()
+2022-01-30 18:00:51,031:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:00:51,032:INFO:Checking exceptions
+2022-01-30 18:00:51,032:INFO:Preloading libraries
+2022-01-30 18:01:06,200:INFO:Initializing predict_model()
+2022-01-30 18:01:06,201:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:01:06,201:INFO:Checking exceptions
+2022-01-30 18:01:06,201:INFO:Preloading libraries
+2022-01-30 18:02:14,845:INFO:Initializing predict_model()
+2022-01-30 18:02:14,846:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:02:14,846:INFO:Checking exceptions
+2022-01-30 18:02:14,846:INFO:Preloading libraries
+2022-01-30 18:02:36,343:INFO:Initializing predict_model()
+2022-01-30 18:02:36,343:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:02:36,343:INFO:Checking exceptions
+2022-01-30 18:02:36,344:INFO:Preloading libraries
+2022-01-30 18:02:48,783:INFO:Initializing predict_model()
+2022-01-30 18:02:48,783:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:02:48,784:INFO:Checking exceptions
+2022-01-30 18:02:48,784:INFO:Preloading libraries
+2022-01-30 18:03:17,542:INFO:Initializing predict_model()
+2022-01-30 18:03:17,543:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:03:17,543:INFO:Checking exceptions
+2022-01-30 18:03:17,543:INFO:Preloading libraries
+2022-01-30 18:04:00,533:INFO:Initializing predict_model()
+2022-01-30 18:04:00,534:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:04:00,535:INFO:Checking exceptions
+2022-01-30 18:04:00,536:INFO:Preloading libraries
+2022-01-30 18:04:38,833:INFO:Initializing predict_model()
+2022-01-30 18:04:38,833:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:04:38,833:INFO:Checking exceptions
+2022-01-30 18:04:38,833:INFO:Preloading libraries
+2022-01-30 18:07:37,696:INFO:Initializing load_model()
+2022-01-30 18:07:37,697:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 18:08:05,988:INFO:Initializing predict_model()
+2022-01-30 18:08:05,989:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:08:05,989:INFO:Checking exceptions
+2022-01-30 18:08:05,989:INFO:Preloading libraries
+2022-01-30 18:08:42,694:INFO:Initializing predict_model()
+2022-01-30 18:08:42,694:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:08:42,694:INFO:Checking exceptions
+2022-01-30 18:08:42,694:INFO:Preloading libraries
+2022-01-30 18:09:01,359:INFO:Initializing predict_model()
+2022-01-30 18:09:01,359:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:09:01,359:INFO:Checking exceptions
+2022-01-30 18:09:01,359:INFO:Preloading libraries
+2022-01-30 18:10:13,351:INFO:Initializing predict_model()
+2022-01-30 18:10:13,351:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:10:13,352:INFO:Checking exceptions
+2022-01-30 18:10:13,352:INFO:Preloading libraries
+2022-01-30 18:10:24,929:INFO:Initializing predict_model()
+2022-01-30 18:10:24,929:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:10:24,929:INFO:Checking exceptions
+2022-01-30 18:10:24,929:INFO:Preloading libraries
+2022-01-30 18:10:37,824:INFO:Initializing predict_model()
+2022-01-30 18:10:37,825:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:10:37,825:INFO:Checking exceptions
+2022-01-30 18:10:37,825:INFO:Preloading libraries
+2022-01-30 18:11:28,669:INFO:Initializing predict_model()
+2022-01-30 18:11:28,670:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:11:28,670:INFO:Checking exceptions
+2022-01-30 18:11:28,670:INFO:Preloading libraries
+2022-01-30 18:11:47,501:INFO:Initializing predict_model()
+2022-01-30 18:11:47,501:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:11:47,501:INFO:Checking exceptions
+2022-01-30 18:11:47,502:INFO:Preloading libraries
+2022-01-30 18:12:32,114:INFO:Initializing load_model()
+2022-01-30 18:12:32,114:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 18:12:37,003:INFO:Initializing predict_model()
+2022-01-30 18:12:37,004:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:12:37,004:INFO:Checking exceptions
+2022-01-30 18:12:37,004:INFO:Preloading libraries
+2022-01-30 18:12:42,247:INFO:Initializing predict_model()
+2022-01-30 18:12:42,247:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:12:42,247:INFO:Checking exceptions
+2022-01-30 18:12:42,247:INFO:Preloading libraries
+2022-01-30 18:15:21,964:INFO:Initializing load_model()
+2022-01-30 18:15:21,964:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 18:15:45,391:INFO:Initializing load_model()
+2022-01-30 18:15:45,391:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 18:15:56,974:INFO:Initializing load_model()
+2022-01-30 18:15:56,974:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-30 18:16:03,339:INFO:Initializing predict_model()
+2022-01-30 18:16:03,340:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-30 18:16:03,340:INFO:Checking exceptions
+2022-01-30 18:16:03,340:INFO:Preloading libraries
+2022-01-31 02:38:30,490:INFO:Initializing load_model()
+2022-01-31 02:38:30,513:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 02:38:38,815:INFO:Initializing load_model()
+2022-01-31 02:38:38,815:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:09:02,496:INFO:Initializing load_model()
+2022-01-31 03:09:02,496:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:10:16,551:INFO:Initializing load_model()
+2022-01-31 03:10:16,551:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:22:44,999:INFO:Initializing load_model()
+2022-01-31 03:22:44,999:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:23:30,328:INFO:Initializing load_model()
+2022-01-31 03:23:30,328:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:25:00,246:INFO:Initializing load_model()
+2022-01-31 03:25:00,246:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:28:35,363:INFO:Initializing load_model()
+2022-01-31 03:28:35,363:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:31:26,558:INFO:Initializing load_model()
+2022-01-31 03:31:26,558:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:31:43,750:INFO:Initializing load_model()
+2022-01-31 03:31:43,750:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:34:11,639:INFO:Initializing load_model()
+2022-01-31 03:34:11,639:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:34:30,903:INFO:Initializing load_model()
+2022-01-31 03:34:30,903:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:40:47,433:INFO:Initializing load_model()
+2022-01-31 03:40:47,433:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:44:25,384:INFO:Initializing predict_model()
+2022-01-31 03:44:25,385:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:44:25,385:INFO:Checking exceptions
+2022-01-31 03:44:25,385:INFO:Preloading libraries
+2022-01-31 03:44:48,864:INFO:Initializing predict_model()
+2022-01-31 03:44:48,864:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:44:48,864:INFO:Checking exceptions
+2022-01-31 03:44:48,864:INFO:Preloading libraries
+2022-01-31 03:45:14,637:INFO:Initializing predict_model()
+2022-01-31 03:45:14,637:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:45:14,638:INFO:Checking exceptions
+2022-01-31 03:45:14,638:INFO:Preloading libraries
+2022-01-31 03:45:30,821:INFO:Initializing predict_model()
+2022-01-31 03:45:30,822:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:45:30,822:INFO:Checking exceptions
+2022-01-31 03:45:30,822:INFO:Preloading libraries
+2022-01-31 03:45:43,311:INFO:Initializing predict_model()
+2022-01-31 03:45:43,312:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:45:43,313:INFO:Checking exceptions
+2022-01-31 03:45:43,313:INFO:Preloading libraries
+2022-01-31 03:45:57,965:INFO:Initializing predict_model()
+2022-01-31 03:45:57,965:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:45:57,965:INFO:Checking exceptions
+2022-01-31 03:45:57,965:INFO:Preloading libraries
+2022-01-31 03:46:14,796:INFO:Initializing predict_model()
+2022-01-31 03:46:14,796:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:46:14,796:INFO:Checking exceptions
+2022-01-31 03:46:14,796:INFO:Preloading libraries
+2022-01-31 03:47:08,014:INFO:Initializing predict_model()
+2022-01-31 03:47:08,015:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:47:08,016:INFO:Checking exceptions
+2022-01-31 03:47:08,017:INFO:Preloading libraries
+2022-01-31 03:48:52,141:INFO:Initializing predict_model()
+2022-01-31 03:48:52,141:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:48:52,141:INFO:Checking exceptions
+2022-01-31 03:48:52,141:INFO:Preloading libraries
+2022-01-31 03:50:16,438:INFO:Initializing predict_model()
+2022-01-31 03:50:16,439:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:50:16,439:INFO:Checking exceptions
+2022-01-31 03:50:16,439:INFO:Preloading libraries
+2022-01-31 03:51:02,839:INFO:Initializing load_model()
+2022-01-31 03:51:02,839:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:51:10,187:INFO:Initializing predict_model()
+2022-01-31 03:51:10,187:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:51:10,188:INFO:Checking exceptions
+2022-01-31 03:51:10,188:INFO:Preloading libraries
+2022-01-31 03:51:49,011:INFO:Initializing predict_model()
+2022-01-31 03:51:49,011:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:51:49,011:INFO:Checking exceptions
+2022-01-31 03:51:49,011:INFO:Preloading libraries
+2022-01-31 03:52:10,291:INFO:Initializing predict_model()
+2022-01-31 03:52:10,291:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:52:10,291:INFO:Checking exceptions
+2022-01-31 03:52:10,291:INFO:Preloading libraries
+2022-01-31 03:52:22,900:INFO:Initializing predict_model()
+2022-01-31 03:52:22,900:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:52:22,901:INFO:Checking exceptions
+2022-01-31 03:52:22,901:INFO:Preloading libraries
+2022-01-31 03:55:04,832:INFO:Initializing load_model()
+2022-01-31 03:55:04,832:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:55:12,696:INFO:Initializing predict_model()
+2022-01-31 03:55:12,696:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:55:12,696:INFO:Checking exceptions
+2022-01-31 03:55:12,696:INFO:Preloading libraries
+2022-01-31 03:55:16,122:INFO:Initializing predict_model()
+2022-01-31 03:55:16,123:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:55:16,123:INFO:Checking exceptions
+2022-01-31 03:55:16,123:INFO:Preloading libraries
+2022-01-31 03:55:35,077:INFO:Initializing predict_model()
+2022-01-31 03:55:35,077:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:55:35,078:INFO:Checking exceptions
+2022-01-31 03:55:35,078:INFO:Preloading libraries
+2022-01-31 03:55:40,053:INFO:Initializing predict_model()
+2022-01-31 03:55:40,053:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:55:40,053:INFO:Checking exceptions
+2022-01-31 03:55:40,053:INFO:Preloading libraries
+2022-01-31 03:56:05,288:INFO:Initializing predict_model()
+2022-01-31 03:56:05,288:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:56:05,288:INFO:Checking exceptions
+2022-01-31 03:56:05,288:INFO:Preloading libraries
+2022-01-31 03:56:18,778:INFO:Initializing predict_model()
+2022-01-31 03:56:18,778:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:56:18,778:INFO:Checking exceptions
+2022-01-31 03:56:18,778:INFO:Preloading libraries
+2022-01-31 03:56:24,665:INFO:Initializing predict_model()
+2022-01-31 03:56:24,666:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:56:24,666:INFO:Checking exceptions
+2022-01-31 03:56:24,666:INFO:Preloading libraries
+2022-01-31 03:56:47,106:INFO:Initializing load_model()
+2022-01-31 03:56:47,107:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 03:57:13,380:INFO:Initializing predict_model()
+2022-01-31 03:57:13,380:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:57:13,381:INFO:Checking exceptions
+2022-01-31 03:57:13,381:INFO:Preloading libraries
+2022-01-31 03:58:58,053:INFO:Initializing predict_model()
+2022-01-31 03:58:58,054:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:58:58,054:INFO:Checking exceptions
+2022-01-31 03:58:58,054:INFO:Preloading libraries
+2022-01-31 03:59:05,040:INFO:Initializing predict_model()
+2022-01-31 03:59:05,040:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:59:05,041:INFO:Checking exceptions
+2022-01-31 03:59:05,041:INFO:Preloading libraries
+2022-01-31 03:59:19,167:INFO:Initializing predict_model()
+2022-01-31 03:59:19,167:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:59:19,167:INFO:Checking exceptions
+2022-01-31 03:59:19,167:INFO:Preloading libraries
+2022-01-31 03:59:27,249:INFO:Initializing predict_model()
+2022-01-31 03:59:27,249:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:59:27,249:INFO:Checking exceptions
+2022-01-31 03:59:27,249:INFO:Preloading libraries
+2022-01-31 03:59:32,477:INFO:Initializing predict_model()
+2022-01-31 03:59:32,477:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', GradientBoostingRegressor(random_state=123)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2022-01-31 03:59:32,477:INFO:Checking exceptions
+2022-01-31 03:59:32,477:INFO:Preloading libraries
+2022-01-31 04:01:25,745:INFO:Initializing load_model()
+2022-01-31 04:01:25,745:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 04:01:32,587:INFO:Initializing load_model()
+2022-01-31 04:01:32,587:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 04:08:21,722:INFO:Initializing load_model()
+2022-01-31 04:08:21,722:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 04:40:27,099:INFO:Initializing load_model()
+2022-01-31 04:40:27,100:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)
+2022-01-31 04:40:59,208:INFO:Initializing load_model()
+2022-01-31 04:40:59,208:INFO:load_model(model_name=my_second_pipeline, platform=None, authentication=None, verbose=True)

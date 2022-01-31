@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Insurance Bill</h1>
+  <h5 style="color: red;">{{error}}</h5>
+  <select name="pred-type" id="pred-sel">
+   
+    <option value="" disabled selected>Select prediction type</option>
+    <option value="online">Online</option>
+    <option value="batch">Batch</option>
+  </select>
+
+  <!-- Returned prediction from the backend -->
+  <br>
+  <h4 style="font-weight: bold;color: aqua;font-size: 1.5rem;" id="past_prediction">{{pred}}</h4>
+
+  <div class="online-prediction" id="online-prediction">
+    <!-- Main Input For Receiving Query to our ML -->
+   <form action="{{ url_for('predict')}}"method="post">
+     <input type="text" name="age" placeholder="Age" required="required" /><br>
+     <input type="text" name="sex" placeholder="Sex" required="required" /><br>
+       <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
+       <input type="text" name="children" placeholder="Children" required="required" /><br>
+       <input type="text" name="smoker" placeholder="Smoker" required="required" /><br>
+       <input type="text" name="region" placeholder="Region" required="required" /><br>
+      
+  
+       <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+   </form>
+
+  </div>
+
+
+  <!-- BATCH PREDICTION -->
+
+<div class="batch-prediction" id="batch-prediction">
+  <form action="{{ url_for('predict_csv')}}" method="POST" enctype="multipart/form-data" id="file_form">
+    <p><input type="file" name="file" id="csv_file"></p>
+    <!-- <p><input type="submit" value="Submit"></p> -->
+    
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+  </form>
+
+</div>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ 
+ 
+
+</body>
+</html>
+
+<script>
+var batch = document.getElementById("batch-prediction");
+var online = document.getElementById("online-prediction");
+var pastPrediction = document.getElementById("past_prediction");
+var selectElement = document.getElementById("pred-sel");
+
+// screen function
+// switches off both forms when called
+function blankScreen(){
+  batch.style.display = "none"
+  online.style.display = "none"
+  pastPrediction.style.display = "none"
+}
+
+// attach event listener to select element
+selectElement.addEventListener('change', function(){
+  let selectedValue = selectElement.value
+      if(selectedValue == 'batch'){
+        blankScreen()
+        batch.style.display = "block"
+        //yForm.style.display = 'none';
+      }
+      else if(selectedValue == 'online'){
+        blankScreen()
+        online.style.display = "block"
+      }
+    })
+
+    // Event Listener for Historical values
+  const fileForm = document.getElementById("file_form")
+  const csvFileInput = document.getElementById("csv_file")
+
+  fileForm.addEventListener('submit',(e) =>{
+  if (csvFileInput.value === '' )
+  {alert("Upload at least one csv file")
+  e.preventDefault()}
+
+    var filePath = csvFileInput.value;
+    var allowedExtensions = /(\.csv)$/i;
+    if(csvFileInput.value != '' && !allowedExtensions.exec(filePath)){
+      alert("Upload csv files only")
+      e.preventDefault()
+    }
+  })
+</script>
